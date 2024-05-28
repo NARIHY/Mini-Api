@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f47cda;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #6e129d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.notes-container {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.note {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #a7d1f8;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.note h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.note p {
+    color: #666;
+}
+
+.add-note-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0080;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-note-form {
+    display: grid;
+    grid-gap: 10px;
+    margin-top: 20px;
+    padding-bottom: 70px;
+}
+
+.note-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.save-note-btn,
+.delete-note-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.save-note-btn {
+    background-color: #ff0080;
+    color: #fff;
+}
+
+.delete-note-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #ff0080;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sort-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.sort-buttons img {
+    height: 30px; 
+    cursor: pointer;
+    margin-left: 10px; 
+}
+
+.sort-buttons img:last-child {
+    margin-right: 0; 
+}
+
+
+.order {
+    display: none;
+} 
+.order.act {
+    display: inline;
+}
